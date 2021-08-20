@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:padding="70dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="275dp"
+        android:layout_height="70dp"
+        android:hint="Enter first number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="275dp"
+        android:layout_height="70dp"
+        android:hint="Enter Second number"
+        android:inputType="number" />
+
+    <Button
+
+        android:id="@+id/buttonadd"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Add" />
+
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Sub"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonmul"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Multiply"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttondiv"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Divide"
+
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="275dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:hint="Your answer is"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/buttonact"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:text="New Activity" />
+
+</LinearLayout>
