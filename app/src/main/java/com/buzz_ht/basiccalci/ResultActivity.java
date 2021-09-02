@@ -28,7 +28,7 @@ public class ResultActivity extends AppCompatActivity {
         int sub=  a1-b1;
         int mul= a1* b1;
         int div = a1/b1;
-        text1.setText("Addition = " + add + "\nSubtraction = " + sub + "\nMultiplication = " + mul + "\nDivision = " + div );
+        text1.setText("For " + a1 + " & " +b1 + "\nAddition = " + add + "\nSubtraction = " + sub + "\nMultiplication = " + mul + "\nDivision = " + div );
 
     }
 }

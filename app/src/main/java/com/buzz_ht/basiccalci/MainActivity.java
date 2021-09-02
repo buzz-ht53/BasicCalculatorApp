@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
                int c= a1+b1;
                String d = Integer.toString(c);
-               text1.setText(d);
+               text1.setText(a1 + " + " + b1 + " = "+ d);
                 Toast t= Toast.makeText(MainActivity.this,"Addition is =" + d,Toast.LENGTH_SHORT );
                 t.show();
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
                 int c= a1-b1;
                 String d = Integer.toString(c);
-                text1.setText(d);
+                text1.setText(a1 + " - " + b1 + " = "+ d);
                 Toast t= Toast.makeText(MainActivity.this,"Subtraction result is " + d,Toast.LENGTH_LONG );
                 t.show();
             }
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 int c= a1*b1;
                 String d = Integer.toString(c);
                 Toast t =Toast.makeText(MainActivity.this,"Answer is " +d,Toast.LENGTH_LONG );
-                text1.setText(d);
+                text1.setText(a1 + " * " + b1 + " = "+ d);
                 t.show();
             }
         });
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 }else {
                     int c = a1 / b1;
                     String d = Integer.toString(c);
-                    text1.setText(d);
+                    text1.setText(a1 + " / " + b1 + " = "+ d);;
                     Toast t = Toast.makeText(MainActivity.this, "Answer is = " + d, Toast.LENGTH_LONG);
                     t.show();
                 }
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 Intent i = new Intent(MainActivity.this,ResultActivity.class);
-                i.putExtra(Key.KEY1,a);
+                i.putExtra("first",a);
                 i.putExtra("second",b);
                 startActivity(i);
 
